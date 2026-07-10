@@ -8,7 +8,7 @@ Claude Code のグローバル `CLAUDE.md` を Git で管理するリポジト�
 ```bash
 # 1. リポジトリをクローン（または既にクローン済みの場合）
 cd ~
-git clone <このリポジトリのURL> claude-config
+git clone https://github.com/tsts44/claude-config.git
 cd claude-config
 
 # 2. ~/.claude にシンボリックリンクを作成
@@ -21,7 +21,7 @@ ln -sf ~/claude-config/CLAUDE.md ~/.claude/CLAUDE.md
 ```bash
 # 1. リポジトリをクローン
 cd ~
-git clone <このリポジトリのURL> claude-config
+git clone https://github.com/tsts44/claude-config.git
 cd claude-config
 
 # 2. ~/.claude にシンボリックリンクを作成
